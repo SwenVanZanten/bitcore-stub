@@ -1,42 +1,32 @@
 {
   "name": "bitcore-stub",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "dev": "ts-node-dev ./src/server.ts",
+    "prod": "ts-node ./src/server.ts"
   },
   "dependencies": {
-    "core-js": "^3.6.5",
-    "vue": "^3.0.0"
+    "connect-mongo": "^3.2.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-session": "^1.17.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.14",
+    "morgan": "~1.9.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
-    "@vue/compiler-sfc": "^3.0.0",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^7.0.0-0"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/vue3-essential",
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "parser": "babel-eslint"
-    },
-    "rules": {}
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ]
+    "@types/express": "^4.17.9",
+    "@types/node": "^14.14.10",
+    "@typescript-eslint/eslint-plugin": "^4.8.2",
+    "@typescript-eslint/parser": "^4.8.2",
+    "babel-plugin-root-import": "^6.6.0",
+    "eslint": "^7.14.0",
+    "ts-node": "^9.0.0",
+    "ts-node-dev": "^1.0.0",
+    "typescript": "^4.1.2"
+  }
 }

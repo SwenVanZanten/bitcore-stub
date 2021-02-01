@@ -1,0 +1,19 @@
+{
+  "_id": "5fc4cbd56431e4d8fb2ca758",
+  "chain": "XVG",
+  "network": "mainnet",
+  "hash": "702cb0c15e69f985af63a10847357d1d2b94cfa6047ef69d786eca5aa99f7f29",
+  "height": 4556408,
+  "version": 20484,
+  "size": 268,
+  "merkleRoot": "d7d810a5ebd189a24bd62f5afca77c649e3d33bbc9e2df6d4eeb69826112b016",
+  "time": "2020-11-30T10:39:05.000Z",
+  "timeNormalized": "2020-11-30T10:39:05.000Z",
+  "nonce": 1695937092,
+  "bits": 439885302,
+  "previousBlockHash": "42930db3136c4219ef54d31eced942b165d42e7a6c662aa67b7a670eda927a5f",
+  "nextBlockHash": "",
+  "reward": 200000000,
+  "transactionCount": 1,
+  "confirmations": -1771
+}
